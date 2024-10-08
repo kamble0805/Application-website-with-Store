@@ -84,26 +84,3 @@ CREATE TABLE order_items (
     FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE CASCADE,
     FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
 );
-
-store.php design description:
-1. on left of the page should have click here to select category and onclicking a popup card to select category that contains 2 categorythat are PrioritiesandMemberships and onclicking onthem should redirect to the respected pages
-
-2. on left of the page below selection categorya conatact us card that contains If you run into any issues whilst attempting to use our store, please contact us through Discord(link to Discord).
-Open a ticket and a staff member will be with you as soon as possible!
-
-3. belowconatact us card , another card displaying top customer of the all TIME
-
-4. on right top featured packages in which 2 products are displaying that is a gold priority and platinum Memberships
-
-5. below featured packages, ther is info about the store that contains 
-Welcome to the official
-
-Soulcity by EchoRP Store
-
-To begin shopping, please click the "Select a category" button on the sidebar. By supporting Soulcity by EchoRP, you allow us to maintain server costs, provide a better experience, and upgrade our infrastructure. For more information regarding Soulcity by EchoRP, please head to our.
-
-Support
-
-Need any questions answered before checkout? Waited more than 20 minutes but your package still has not arrived? Ask the community/staff on Discord, or for payment support, submit a support ticket in our Discord.
- Discord Server(button contain link to server)
-It could take between 1-20 minutes for your purchase to be credited in-game. If you are still not credited after this time period, please open a support ticket in our Discord with proof of purchase and we will look into your issue.
